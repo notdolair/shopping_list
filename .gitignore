@@ -1,0 +1,21 @@
+# Virtuelle Umgebung
+env/
+
+# SQLite-Datenbankdateien
+db.sqlite3
+
+# Python Bytecode-Dateien
+__pycache__/
+*.pyc
+*.pyo
+
+# Django-spezifische Dateien
+*.log
+
+# IDE-Dateien
+.idea/
+.vscode/
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
