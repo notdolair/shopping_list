@@ -18,11 +18,24 @@ Ein einfaches Einkaufslisten-Projekt, das mit Django erstellt wurde. Benutzer k�
 - `python manage.py test`: Führt die Tests aus.
 
 #### **Git Befehle:**
-- `git init`: Initialisiert ein neues Git-Repository.
-- `git add .`: Fügt alle Änderungen zum Commit hinzu.
-- `git commit -m "Nachricht"`: Erstellt einen Commit.
-- `git push`: Lädt Änderungen auf GitHub hoch.
-- `git checkout branchname`: Wechselt zu einem anderen Branch.
-- `git pull`: Holt die neuesten Änderungen vom Remote-Repository.
-- `git branch -d branchname`: Löscht einen Branch.
-- `git remote add origin <URL>`: Fügt ein Remote-Repository hinzu.
+git init = initialize project to use git
+
+git add. = add all changes to be saved
+
+git add *filename* = add single file to be saved
+
+git commit -m "message" = savechanges with message
+
+git push origin master = push changes to github master
+
+git push origin new-branch = push changes to github new-branch
+
+git pull origin master = pull changes from github master
+
+git checkout -b new-branch = create a new branch
+
+git status = check status of changes
+
+git log = see all previous saved changes
+
+git checkout *commit hash* = travel back to old commit
