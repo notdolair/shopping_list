@@ -10,7 +10,7 @@ Ein einfaches Einkaufslisten-Projekt, das mit Django erstellt wurde. Benutzer k√
 ### Zusammenfassung der wichtigsten Befehle:
 
 #### **Django Befehle:**
-- `python manage.py runserver`: Startet den Django-Entwicklungsserver.
+- `python manage.py runserver 0.0.0.0:8000`: Startet den Django-Entwicklungsserver.
 - `python manage.py migrate`: F√ºhrt Datenbankmigrationen aus.
 - `python manage.py makemigrations`: Erstellt Datenbankmigrationen.
 - `python manage.py createsuperuser`: Erstellt einen Superuser.
